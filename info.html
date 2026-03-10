@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>معلومات مدرسة ملاح للغات</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+body{
+  background:#f5f7fb;
+  color:#333;
+  overflow-x:hidden;
+}
+
+/* HEADER */
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 40px;
+  background:#1A2A6C;
+  color:white;
+  position:sticky;
+  top:0;
+  z-index:1000;
+}
+
+.logo{
+  font-size:28px;
+  font-weight:800;
+  color:#FF8C42;
+}
+
+nav a{
+  color:white;
+  margin:0 15px;
+  text-decoration:none;
+  font-weight:600;
+  transition:0.3s;
+  font-size:18px;
+}
+
+nav a:hover{
+  color:#FF8C42;
+}
+
+/* HERO */
+.face-page{
+  height:60vh;
+  background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+  url("hero.jpg");
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  color:white;
+}
+
+.face-page h1{
+  font-size:72px;
+  font-weight:900;
+  text-shadow:0 10px 30px rgba(0,0,0,0.7);
+  animation:slideDown 1s;
+}
+
+.face-page p{
+  font-size:28px;
+  margin-top:15px;
+  opacity:0.95;
+  font-weight:500;
+}
+
+/* SECTIONS */
+.section{
+  padding:80px 20px;
+  text-align:right;
+}
+
+.section h2{
+  font-size:48px;
+  color:#1A2A6C;
+  margin-bottom:40px;
+  font-weight:800;
+}
+
+.section ul{
+  list-style-type: disc;
+  margin-right: 30px;
+  font-size:20px;
+  line-height:1.8;
+}
+
+.section p{
+  font-size:20px;
+  line-height:1.8;
+  margin-bottom:25px;
+  font-weight:500;
+  color:#333;
+}
+
+/* FOOTER */
+footer{
+  background:#111;
+  color:#aaa;
+  text-align:center;
+  padding:30px;
+  font-size:18px;
+  margin-top:50px;
+}
+
+@keyframes slideDown{
+  from{transform:translateY(-50px);opacity:0;}
+  to{transform:translateY(0);opacity:1;}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">مدرسة ملاح للغات</div>
+  <nav>
+    <a href="index.html">الرئيسية</a>
+    <a href="#about">من نحن</a>
+    <a href="#languages">اللغات</a>
+    <a href="#courses">الدورات</a>
+    <a href="#goals">أهداف المدرسة</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="face-page">
+  <h1>مرحبا بكم في مدرسة ملاح للغات</h1>
+  <p>تعلم لغة جديدة وافتح آفاقك مع العالم!</p>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+<h2>من نحن</h2>
+<p>مدرسة Mallah للغات هي أول مؤسسة متخصصة في تعليم اللغات في مدينة ورزازات، وتهدف إلى تقديم تعليم عالي الجودة لجميع الطلاب.</p>
+</section>
+
+<!-- LANGUAGES -->
+<section class="section" id="languages">
+<h2>اللغات المتاحة</h2>
+<ul>
+<li>العربية: اللغة الرسمية والشائعة.</li>
+<li>ⵜⴰⵎⴰⵣⵉⵖⵜ: الأمازيغية المحلية.</li>
+<li>Français: لغة الثقافة والعلم.</li>
+<li>English: لغة دولية.</li>
+<li>Español: أكثر من 500 مليون متحدث.</li>
+<li>Deutsch: لغة التكنولوجيا.</li>
+<li>Italiano: لغة الفن والثقافة.</li>
+<li>Nederlands: اللغة الهولندية.</li>
+<li>中文 (Zhōngwén): اللغة الصينية.</li>
+</ul>
+</section>
+
+<!-- COURSES -->
+<section class="section" id="courses">
+<h2>الدورات المتاحة</h2>
+<ul>
+<li>علوم التربية: دورات تكوينية في علوم التربية.</li>
+<li>الإرشاد النفسي: دروس دعم الارشاد النفسي والأسري.</li>
+<li>الإعلامية: تعلم أساسيات الحاسوب.</li>
+<li>الفندقة والسياحة: تكوين مهني في السياحة والفندقة.</li>
+</ul>
+</section>
+
+<!-- GOALS -->
+<section class="section" id="goals">
+<h2>أهداف المدرسة</h2>
+<p>تطوير المهارات اللغوية للطلاب، تهيئتهم للدراسة والعمل، باستخدام طرق حديثة وفعّالة.</p>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+<h2>الاتصال بنا</h2>
+<p>📧 البريد الإلكتروني: med.mallah88@outlook.com</p>
+<p>📞 الهاتف: +212667055426</p>
+</section>
+
+<footer>
+© 2026 مدرسة ملاح للغات
+</footer>
+
+</body>
+</html>
